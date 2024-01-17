@@ -1,7 +1,7 @@
 ## "Dogrun" - pygame game project
 ---------------------------------
 
-<p>Dogrun is a project that uses pygame library to create a simple game about a **Dog** running. What else do you need? Just download the game and enjoy.</p>
+Dogrun is a project that uses pygame library to create a simple game about a **Dog** running. What else do you need? Just download the game and enjoy.
 
 ![Game screen 1](/screen1.PNG "screen1")<br><br>
 ![Game screen 2](/screen2.PNG "screen2")

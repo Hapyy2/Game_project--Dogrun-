@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">"Dogrun" - pygame project</h1>
+<h1 align="Center">"Dogrun" - pygame project</h1>
 
 
 ## Description

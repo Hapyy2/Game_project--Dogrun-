@@ -1,4 +1,4 @@
-<h1 align="Center"><b>"Dogrun" - pygame project</b></h1>
+<h1 align="Center">**"Dogrun" - pygame project**</h1>
 
 
 ## Description

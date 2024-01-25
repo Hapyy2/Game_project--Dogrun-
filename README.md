@@ -42,7 +42,7 @@ To play You need to download the files and run the `main.py` file. You can use a
 ```
 4. Use of arrays, tuples and dictionaries
  * Commonly used in the procet for example `Save_score` funtion bellow in point 8 uses a dictionary
-6. Scoreboard <br><br>
+6. Scoreboard <br>
 ![Game screen 3](/screen3.PNG "screen3")
 8. Working with files
 ```python
@@ -82,7 +82,8 @@ def Reverse_list(scores):
 ## Screenshots from the game
 ---------------------------------
 ![Game screen 1](/screen1.PNG "screen1")<br><br>
-![Game screen 2](/screen2.PNG "screen2")
+![Game screen 2](/screen2.PNG "screen2")<br><br>
+![Game screen 4](/screen4.PNG "screen4")
 
 Credits:<br>
 *Animal animations*: https://free-game-assets.itch.io/free-street-animal-pixel-art-asset-pack<br>

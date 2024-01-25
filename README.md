@@ -3,7 +3,8 @@
 
 ## Description
 ---------------------------------
-Dogrun is a project that uses pygame library to create a simple game about a **Dog** running. What else do you need? Just download the game and enjoy.
+Dogrun is a project that uses pygame library to create a simple game about a **Dog** running. What else do you need? Just download the game and enjoy. <br>
+To play You need to download the files and run the `main.py` file. You can use an editor like Pycharm.
 
 ## Requirements for the project
 ---------------------------------
@@ -41,7 +42,7 @@ Dogrun is a project that uses pygame library to create a simple game about a **D
 ```
 4. Use of arrays, tuples and dictionaries
  * Commonly used in the procet for example `Save_score` funtion bellow in point 8 uses a dictionary
-6. Scoreboard
+6. Scoreboard <br><br>
 ![Game screen 3](/screen3.PNG "screen3")
 8. Working with files
 ```python

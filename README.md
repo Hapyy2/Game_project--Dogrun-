@@ -22,7 +22,7 @@ To play You need to download the files and run the `main.py` file. You can use a
       * scoreboard.txt - text file with top 5 players and their scores
       * settings.py - variables used in the project for example `music_volume`
       * Credits.txt - contains links to assets used in the project
-3. Function tests using pytest
+2. Function tests using pytest
 ```python
   def test_Sort_score():
     assert scoreboard.Sort_score({'a': '100', 'b': '50'}, 'c', 75) == [['a', 100], ['c', 75], ['b', 50]]
@@ -40,11 +40,11 @@ To play You need to download the files and run the `main.py` file. You can use a
   def test_Check_alive():
     assert play.check_alive(10) == None
 ```
-4. Use of arrays, tuples and dictionaries
+3. Use of arrays, tuples and dictionaries
  * Commonly used in the procet for example `Save_score` funtion bellow in point 8 uses a dictionary
-6. Scoreboard <br>
+4. Scoreboard <br>
 ![Game screen 3](/screen3.PNG "screen3")
-8. Working with files
+5. Working with files
 ```python
 def Save_score(score, nick):
     # print(f'{score} {nick}')
@@ -60,7 +60,7 @@ def Save_score(score, nick):
     for i in range(5):
         file.write(f'{scores[i][0]} {scores[i][1]}\n')
 ```
-9. Algorithms used
+6. Algorithms used
 ```python
 # Bubble sort
 def Bubble_sort(scores):
@@ -77,7 +77,12 @@ def Reverse_list(scores):
         scores.append(copy_scores[i])
     return scores
 ```
-11. Academic level
+7. Academic level
+   * Using pygame library
+   * Animations and assets
+   * Creating classes
+   * This README.md file
+   * Completion and complexity of the project
 
 ## Screenshots from the game
 ---------------------------------

@@ -1,6 +1,8 @@
-# "Dogrun" - pygame project
+# "Dogrun" - pygame project<br>
 ---------------------------------
-
+<br>
+## Description
+---------------------------------
 Dogrun is a project that uses pygame library to create a simple game about a **Dog** running. What else do you need? Just download the game and enjoy.
 
 ## Requirements for the project

@@ -1,4 +1,4 @@
-<h1 align="Center">**"Dogrun" - pygame project**</h1>
+<h1 align="Center">"Dogrun" - pygame project</h1>
 
 
 ## Description
@@ -40,10 +40,43 @@ Dogrun is a project that uses pygame library to create a simple game about a **D
     assert play.check_alive(10) == None
 ```
 4. Use of arrays, tuples and dictionaries
+ * Commonly used in the procet for example `Save_score` funtion bellow in point 8 uses a dictionary
 6. Scoreboard
-7. Working with files
-8. Algorithms used
-9. Academic level
+![Game screen 3](/screen3.PNG "screen3")
+8. Working with files
+```python
+def Save_score(score, nick):
+    # print(f'{score} {nick}')
+    file = open('scoreboard.txt', 'r')
+    list_of_scores = {}
+    for line in file:
+        line.strip()
+        line = line.split()
+        list_of_scores.update({line[0]: line[1]})
+    scores = Sort_score(list_of_scores, nick, score)
+    # print(scores)
+    file = open('scoreboard.txt', 'w')
+    for i in range(5):
+        file.write(f'{scores[i][0]} {scores[i][1]}\n')
+```
+9. Algorithms used
+```python
+# Bubble sort
+def Bubble_sort(scores):
+    for i in range(len(scores) - 1):
+        for j in range(0, (len(scores) - 1 - i)):
+            if scores[j][1] > scores[j + 1][1]:
+                scores[j + 1], scores[j] = scores[j], scores[j + 1]
+    return scores
+# Reversing a list
+def Reverse_list(scores):
+    copy_scores = scores.copy()
+    scores.clear()
+    for i in range((len(copy_scores) - 1), -1, -1):
+        scores.append(copy_scores[i])
+    return scores
+```
+11. Academic level
 
 ## Screenshots from the game
 ---------------------------------
